@@ -5,6 +5,8 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
 @Entity
@@ -16,10 +18,12 @@ public class Product {
     private Integer id;
 
     @Column(nullable = false)
+    @NotBlank
     private String name;
     
     @Column(nullable = false)
-    private int price;
+    @Min(value = 10)
+    private Integer price;
     
     @Column()
     private String description;
