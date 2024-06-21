@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\gilna\OneDrive\Documentos\Desenvolvimento\ws-javafx\.metadata\.plugins\org.eclipse.jdt.core
+3481048360.index
+1865797976.index
+1077765274.index
+3136817208.index
